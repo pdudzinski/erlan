@@ -1,0 +1,8 @@
+{application,wi,
+             [{description,"webinterpret"},
+              {vsn,"0.1.0"},
+              {modules,[]},
+              {registered,[]},
+              {mod,{wi_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]}]}.

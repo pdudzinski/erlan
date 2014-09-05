@@ -1,0 +1,9 @@
+{application,wi,
+             [{description,"webinterpret"},
+              {vsn,"0.1.0"},
+              {modules,[wi_account,wi_accounts_sup,wi_app,wi_server,wi_sup,
+                        worker_request_all]},
+              {registered,[]},
+              {mod,{wi_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]}]}.
